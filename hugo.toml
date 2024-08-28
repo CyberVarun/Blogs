@@ -1,0 +1,82 @@
+baseURL = 'https://cybervarun.pages.dev/'
+languageCode = 'en-us'
+title = 'CyberVarun'
+theme = 'PaperMod'
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+defaultTheme = "auto"
+ShowCodeCopyButtons = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+disableScrollToTop = false
+disableShare = false
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowWordCount = true
+comments = true
+ShowToc = true
+UseHugoToc = true
+enableRobotsTXT = true
+
+[params.profileMode]
+enabled = true
+title = "CyberVarun"
+subtitle = "Hello world. I am Varun a enthusiast in cyber security & a tinkerer, who like to play around hardware and software."
+imageUrl = "logo.jpg"
+imageTitle = "Profile Image"
+imageWidth = 250
+imageHeight = 250
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/CyberVarun"
+
+[[params.socialIcons]]
+name = "X"
+url = "https://x.com/CyberVarunTech"
+
+[[params.socialIcons]]
+name = "Linkedin"
+url = "https://www.linkedin.com/in/cybervaruntech"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+name = "Blogs"
+identifier = "Posts"
+url = "/posts"
+weight = 10
+
+[[menu.main]]
+name = "Tags"
+identifier = "Tags"
+url = "/tags"
+weight = 20
+
+[[menu.main]]
+name = "Search"
+identifier = "Search"
+url = "/search"
+weight = 30
+
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'dracula'
+tabWidth = 4
