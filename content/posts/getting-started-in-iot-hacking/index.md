@@ -16,7 +16,7 @@ caption = "IoT Hacking Image"
 relative = false
 
 [editPost]
-URL = "https://github.com/CyberVarun/Blogs"
+URL = "https://github.com/CyberVarun/Blogs/content"
 Text = "Suggest Changes"
 appendFilePath = true
 +++
