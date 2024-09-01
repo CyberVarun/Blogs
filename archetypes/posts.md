@@ -4,14 +4,14 @@ date = {{ .Date }}
 draft = true
 
 tags = [
-"linux", "ubuntu", "cybersecurity","github", "IoT",
-"git", "nvim", "vim", "neovim", "python", "python3", 
+"Linux", "Ubuntu", "Cybersecurity","Github", "IoT",
+"Git", "Nvim", "Vim", "Neovim", "Python", "Python3", 
 "IoT hacking", "MQTT", "CoAP", "IDA", "Ghidra",
 "Binary Analysis", "Binary Reverse Engineering",
-"Reverse Engineering", "Tool", "config", "JTAG",
+"Reverse Engineering", "Tool", "Config", "JTAG",
 "UART", "SPI", "I2C", "Firmware", "Firmware Analysis",
 "Hardware", "Hardware hacking", "Hardware Analysis",
-"Hardware Hacking", "Hardware Hacking Tool"] 
+"Hardware Hacking Tool"] 
 
 summary = "summary"
 description = "desc (150-160 char)"
