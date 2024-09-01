@@ -24,7 +24,7 @@ caption = "cap"
 relative = false
 
 [editPost]
-URL = "https://github.com/CyberVarun/Blogs/content"
+URL = "https://github.com/CyberVarun/Blogs/blob/main/content"
 Text = "Suggest Changes"
 appendFilePath = true
 +++
