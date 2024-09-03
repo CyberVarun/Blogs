@@ -17,12 +17,6 @@ summary = "summary"
 description = "desc (150-160 char)"
 canonicalURL = "https://cybervarun.pages.dev/{{ .Dir }}" 
 
-[cover] 
-image = "img" 
-alt = "text"
-caption = "cap" 
-relative = false
-
 [editPost]
 URL = "https://github.com/CyberVarun/Blogs/blob/main/content"
 Text = "Suggest Changes"
