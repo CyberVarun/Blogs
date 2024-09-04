@@ -57,7 +57,7 @@ Now that we have basic understanding of what firmware is, let's learn what is fi
 
     UART is a communication protocol used for serial communication between the device and the computer. It is used to communicate with the device in order to execute commands and give instructions to the device. We can give specific commands to the device to extract the firmware from it.
 
-3. Chip-off Technique:
+3. **Chip-off Technique**:
 
     In this we actually remove the physical flash memory chip from the device and read the firmware from the chip using a flash programmer. This technique is used when the firmware is encrypted or obfuscated.
 
